@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    display: flex;
+}
+
+nav {
+    position: sticky;
+    margin-top: auto;
+    padding: 1rem;
+    background-color: crimson;
+    text-align: center;
+}
+
+footer {
+    margin: 1rem;
+    color: blueviolet;
+    border: 1xp solid black;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h3 {
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    flex-grow: 1;
+
+}
+
